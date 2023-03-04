@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ['369722924@qq.com']
   s.files       = ['lib/new_money.rb']
   s.files += Dir['lib/**/*']
-  s.executables +=['new_money']
+  s.executables += ['new_money']
   s.homepage = 'https://rubygems.org/gems/new_money'
   s.license = 'MIT'
 end

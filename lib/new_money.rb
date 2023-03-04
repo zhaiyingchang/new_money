@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class NewMoney
   def self.hi(language = 'english')
     translator = Translator.new(language)

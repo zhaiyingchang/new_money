@@ -1,14 +1,18 @@
-class NewMoney::Translator
-  def initialize(language)
-    @language = language
-  end
+# frozen_string_literal: true
 
-  def hi
-    case @language
-    when "spanish"
-      "hola mundo"
-    else
-      "hello world"
+module NewMoney
+  class Translator
+    def initialize(language)
+      @language = language
+    end
+
+    def hi
+      case @language
+      when 'spanish'
+        'hola mundo'
+      else
+        'hello world'
+      end
     end
   end
 end
