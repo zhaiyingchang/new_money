@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'new_money'
-  s.version     = '0.0.3'
+  s.version     = '0.0.5'
   s.summary     = 'new_money is test gem'
   s.description = 'new_money is test gem. it implements some apis of money gem'
   s.authors     = ['Zhai Yingchang']
