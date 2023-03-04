@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.files       = ['lib/new_money.rb']
   s.files += Dir['lib/**/*']
   s.executables += ['new_money']
+  s.test_files = Dir['spec/**/*']
   s.homepage = 'https://rubygems.org/gems/new_money'
   s.license = 'MIT'
 end

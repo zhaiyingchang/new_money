@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class NewMoney
+module NewMoney
   def self.hi(language = 'english')
     translator = Translator.new(language)
     translator.hi
