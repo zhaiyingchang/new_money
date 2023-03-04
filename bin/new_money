@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'new_money'
+puts NewMoney.hi(ARGV[0])
